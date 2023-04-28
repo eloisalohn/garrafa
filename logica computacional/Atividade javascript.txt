@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agora eu faço programa!!! </h1>
+    <button onclick="media()">Clique aqui!</button>
+    <button onclick="bemvindo()">Bem-vindo</button>
+</body>
+</html>
+<script>
+    function media()
+    {
+        var q = prompt("Digite a quantidade de números paa a média!")
+        var resultado, soma = 0
+        for(var i = 1; i <= q; i++){
+            soma +=Number(prompt("digite "+i+"º numero para tirar a media! \n"))
+               
+            }
+            resultado = soma / q
+            alert("A média é: "+resultado)
+        }
+   
+</script>
+<script>
+    function  bemvindo(){
+     var atualAno, idadeAno, anoNasci, nome
+     var nome = prompt("Escreva seu nome!!")
+     alert("Bem vindo "+nome)
+     var anoNasci = Number(prompt("Digite o ano em que voce nasceu!"))
+     var atualAno = Number( prompt("em que ano estamos?"))  
+     idadeAno = atualAno - anoNasci
+     alert("esse ano voce completa "+idadeAno)
+     if(idadeAno >= 18)
+     {
+     alert("voce já é maior de idade! cuidado para não ser preso!kkk ")
+     }
+    else
+    {
+alert("voce ainda é de menor,vai para a escola vagabundo!")
+    }
+}  
+</script>
+

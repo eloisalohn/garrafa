@@ -1,0 +1,80 @@
+Existem quatro princípios básicos, quais são? Comente sobre cada um deles, explicando com exemplos.
+resposta:
+disponibilidade:garante que sistemas, aplicativos e dados estejam disponíveis e acessíveis para usuários autorizados quando eles precisarem. integridade: garante que os dados sejam corretos, autênticos e confiáveis. confidencialidade:envolve os esforços de uma organização para garantir que os dados sejam mantidos em segredo ou privados. autenticidade: é o pilar que valida a autorização do usuário para acessar, transmitir e receber informações, como logins, senhas ou até autenticações biométricas.
+
+Bob envia a mensagem “Oi, tudo bem?” para Alice;
+A mensagem foi interceptada no meio do caminho;
+Após a interceptação, foi alterada para:
+“Oi tudo bem!”
+Qual ou quais princípios de Segurança da Informação foram violados? Explique!
+                                         R: autenticidade, garante a verdade e confidencialidade.
+Bob captura a chave do email de Alice;
+Bob envia um email para Ted em nome de Alice;
+Qual ou quais princípios de Segurança da Informação foram violados? Explique!
+R:autenticidade e confidencialidade, perde o controle e a proteção. 
+
+Se algum software malicioso derrubar o serviço da Netflix, qual foi o princípio violado? Explique!
+R:disponibilidade,protege contra ataques e integridade pois pessoas não autorizadas conseguem o acesso.
+
+Cite um exemplo de cumprimeto de cada princípio de Segurança da Informação.
+Disponibilidade
+Integridade
+Confidencialidade
+Autenticidade
+
+R:Sistema Operacional 
+
+ Um sistema operacional é um software, ou um conjunto de softwares, cuja função é gerenciar e gerenciar todos os recursos presentes em um sistema. Isso varia de componentes de hardware e sistemas de arquivos a programas de terceiros.Um sistema operacional pode ser definido como um conjunto de programas projetados especificamente para realizar diversas tarefas, inclusive atuando como um intermediário entre o usuário e o computador. O sistema operacional também tem a função de gerenciar todos os periféricos do computador. O Windows é um sistema operacional GUI multitarefa. Isso significa que podemos trabalhar com vários programas ao mesmo tempo. Por exemplo, podemos ouvir um CD inserido em um CD-ROM enquanto escrevemos um documento, imprimimos outro e recebemos um fax, tudo ao mesmo tempo.
+
+São as seguintes:
+Executar programas de usuário para solucionar seus problemas mais facilmente;
+Tornar o computador conveniente ao uso;
+Utilizar o hardware de maneira eficiente;
+Compartilhar os recursos de um sistema computacional entre os vários usuários.
+
+Periféricos são dispositivos instalados próximos ao computador cuja função é auxiliar a comunicação homem/máquina. Esses dispositivos podem estar na periferia (ao redor) do computador ou dentro do próprio gabinete.
+
+são as seguintes:Gerenciar tarefas e recursos;
+Controlam a entrada e saída de softwares;
+São multitarefas;
+Têm núcleo;
+Têm mecanismos para garantir a proteção, administração e realocação dos recursos;
+Contam com Kernel.
+
+Um shell é um programa que permite ao usuário acessar os recursos do sistema operacional por meio de um terminal ou interface gráfica. É ele quem cria uma ponte de comunicação entre o kernel do sistema operacional e o usuário/aplicativos/programas.
+
+O kernel, o coração do sistema, é responsável por conectar o software ao hardware. Desta forma, estabelece uma comunicação eficaz entre os recursos do sistema operacional e gerencia suas funções.
+
+
+Características: 
+Gerenciar tarefas e recursos;
+Controlam a entrada e saída de softwares;
+São multitarefas;
+Têm núcleo;
+Têm mecanismos para garantir a proteção, administração e realocação dos recursos;
+Contam com Kernel.
+
+                              Linux
+
+
+Na área de trabalho, crie um diretório com seu nome, dentro do diretório deverá conter outros 3 diretórios com os nomes(Principal, Copiar, Mover), dentro do diretório principal crie 3 arquivos, onde, o primeiro não tem nada é apenas um arquivo vazio, o segundo quando criado já terá o texto “com informação” no ultimo será um arquivo de sua preferencia(.txt) pode ou não ter texto dentro. Quais os comandos utilizados para realizar essas tarefas, listar todos eles em ordem.
+
+
+R:LINUX
+
+Linux: executa programas em um computador, Windows:  é um sistema operacional de interface gráfica multitarefa, Android:  é usado para criar e configurar AVDs, macOS: usado por dispositivos da apple, UNIX: é um sistema  operacional portável e FreeBSD: É um sistema com características exclusivas de segurança, performance e estabilidade, e que oferece os principais padrões de tecnologia do mercado.
+
+é um software, ou um conjunto de softwares, que tem como papel gerenciar e administrar todos os recursos presentes em um sistema.
+
+codigo: 
+$  cd desktop
+$  mkdir Eloisa
+
+$ cd Eloisa
+$ mkdir Principal Mover Copiar
+$ touch arquivo1
+$ echo "com informação" >> arquivo2.txt
+$ cat > arquivo3.txt
+.
+
+[1]+  Stopped                 cat > arquivo3.txt
